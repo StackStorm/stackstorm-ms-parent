@@ -1,0 +1,17 @@
+---
+ref: microsoft_parent_test
+name: Microsoft Test Pack - Parent
+description: |
+  Test pack that depends on specific versions of the MS test pack and the MSSQL
+  pack
+keywords:
+  - example
+  - tests
+  - microsoft
+  - dependencies
+version: 0.0.1
+author: stanley
+email: stanley@localhost.local
+dependencies:
+  - https://github.com/StackStorm/stackstorm-ms.git
+  - mssql=0.2.1
